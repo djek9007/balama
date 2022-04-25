@@ -3,7 +3,7 @@ FROM python:3.8
 ENV PYTHONDONTTWRITEBYTECODE 1
 ENV PYTHONUNBUFFERED 1
 
-WORKDIR /projects/choice
+WORKDIR /projects/balama
 
 COPY ./requirements.txt .
 
