@@ -108,7 +108,7 @@ WSGI_APPLICATION = 'balama.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'choice',
+        'NAME': 'balama',
         'USER': 'alternative_bmso',
         'PASSWORD': 'Bms02021+Alternative',
         'HOST': '127.0.0.1',
